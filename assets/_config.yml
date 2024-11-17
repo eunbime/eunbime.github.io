@@ -2,7 +2,6 @@
 
 # Import the theme
 theme: jekyll-theme-chirpy
-# remote_theme: cotes2020/jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -15,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: eunbi's Blog # the main title
+title: eunbi's blog # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  개발 공부하는 블로그
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -99,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/avatar.jpeg"
+avatar: "/assets/profile.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -224,6 +223,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-plugins:
-  - jekyll-seo-tag
