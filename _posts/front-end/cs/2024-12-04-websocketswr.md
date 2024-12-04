@@ -1,7 +1,7 @@
 ---
 title: WebSocket과 SWR의 특징과 사용법
 date: 2024-12-04 10:00:00 +09:00
-categories: [프론트엔드, 개념]
+categories: [프론트엔드, CS]
 tags: [네트워크, CS]
 ---
 

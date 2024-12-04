@@ -11,7 +11,7 @@ tags: [JavaScript, 알고리즘, 스택, 큐]
 
 ---
 
-## 스택(Stack)
+## 스택(Stack) - LIFO(**Last In First Out)**
 
 ### 정의
 
@@ -19,12 +19,16 @@ tags: [JavaScript, 알고리즘, 스택, 큐]
 
 가장 나중에 들어온 데이터가 가장 먼저 나간다.
 
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/1920px-Data_stack.svg.png'>
+
 ### 주요 연산
 
-- **`push(item)`**: 데이터를 스택에 삽입.
-- **`pop()`**: 스택의 가장 위에 있는 데이터를 제거하고 반환.
-- **`peek()`**: 스택의 가장 위에 있는 데이터를 반환하지만 제거하지는 않음.
-- **`isEmpty()`**: 스택이 비었는지 확인.
+| **연산**         | **설명**                                       | **JavaScript 구현**       |
+| ---------------- | ---------------------------------------------- | ------------------------- |
+| **`push(item)`** | 스택의 맨 위에 데이터를 추가                   | `stack.push(item)`        |
+| **`pop()`**      | 스택의 맨 위 데이터를 제거하고 반환            | `stack.pop()`             |
+| **`peek()`**     | 스택의 맨 위 데이터를 확인하지만 제거하지 않음 | `stack[stack.length - 1]` |
+| **`isEmpty()`**  | 스택이 비어 있는지 확인                        | `stack.length === 0`      |
 
 ### 스택의 활용
 
@@ -56,7 +60,7 @@ console.log(isValidParentheses("(()")); // false
 
 ---
 
-## 큐(Queue)
+## 큐(Queue) - FIFO(First In First Out)
 
 ### 정의
 
@@ -64,12 +68,16 @@ console.log(isValidParentheses("(()")); // false
 
 가장 먼저 들어온 데이터가 가장 먼저 나간다.
 
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/2560px-Data_Queue.svg.png'>
+
 ### 주요 연산
 
-- **`enqueue(item)`**: 데이터를 큐의 끝에 삽입.
-- **`dequeue()`**: 큐의 가장 앞에 있는 데이터를 제거하고 반환.
-- **`peek()`**: 큐의 가장 앞에 있는 데이터를 반환하지만 제거하지는 않음.
-- **`isEmpty()`**: 큐가 비었는지 확인.
+| **연산**            | **설명**                                     | **JavaScript 구현**  |
+| ------------------- | -------------------------------------------- | -------------------- |
+| **`enqueue(item)`** | 큐의 맨 뒤에 데이터를 추가                   | `queue.push(item)`   |
+| **`dequeue()`**     | 큐의 맨 앞 데이터를 제거하고 반환            | `queue.shift()`      |
+| **`peek()`**        | 큐의 맨 앞 데이터를 확인하지만 제거하지 않음 | `queue[0]`           |
+| **`isEmpty()`**     | 큐가 비어 있는지 확인                        | `queue.length === 0` |
 
 ### 큐의 활용
 
