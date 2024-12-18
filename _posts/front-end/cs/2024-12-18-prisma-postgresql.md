@@ -1,11 +1,11 @@
 ---
-title: Prisma와 PostgreSQL을 활용한 ORM 환경 구축: Docker와 Railway를 이용한 배포 가이드
+title: Prisma와 PostgreSQL을 활용한 ORM 환경 구축 - Docker와 Railway를 이용한 배포 가이드
 date: 2024-12-18 10:00:00 +09:00
 categories: [프론트엔드, CS]
 tags: [데이터베이스, CS]
 ---
 
-### 1. Prisma와 PostgreSQL
+## 1. Prisma와 PostgreSQL
 
 **Prisma**는 현대적인 ORM으로, 데이터베이스와 애플리케이션 간의 상호작용을 쉽게 만들어주는 도구이다. 일반적인 ORM과 달리 **타입 안전성**과 **개발자 경험**에 초점을 맞추어, 더 효율적이고 오류를 줄이는 코드를 작성할 수 있게 돕는다.
 
@@ -19,7 +19,7 @@ tags: [데이터베이스, CS]
 
 ---
 
-### 2. 환경 구성
+## 2. 환경 구성
 
 이 글에서는 Prisma와 PostgreSQL을 Docker를 통해 로컬 환경에서 실행하고, Railway를 사용해 클라우드에 배포하는 과정을 다룬다.
 
@@ -27,7 +27,7 @@ tags: [데이터베이스, CS]
 
 ---
 
-### 3. 로컬 환경에서 Prisma와 PostgreSQL 설정
+## 3. 로컬 환경에서 Prisma와 PostgreSQL 설정
 
 ### 3.1 Docker 설정
 
@@ -127,7 +127,7 @@ npx prisma studio
 
 ---
 
-### 4. Railway를 이용한 배포
+## 4. Railway를 이용한 배포
 
 빠르고 간편한 배포를 위해 클라우드 서비스인 Railway를 사용한다.
 
@@ -151,7 +151,7 @@ DATABASE_URL="postgresql://<user>:<password>@<host>:<port>/<database>"
 
 ---
 
-### 5. 정리
+## 5. 정리
 
 Prisma와 PostgreSQL을 활용하면 효율적이고 직관적인 데이터베이스 연동이 가능하다. Docker를 통해 로컬 환경을 손쉽게 구축할 수 있으며, Railway를 이용해 클라우드 배포까지 구현할 수 있다.
 
