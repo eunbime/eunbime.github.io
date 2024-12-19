@@ -16,8 +16,8 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  --link-color: rgb(138, 180, 248);
-  --link-underline-color: rgb(82, 108, 150);
+  --link-color: #ff793f;
+  --link-underline-color: #ff793f;
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
@@ -34,15 +34,15 @@
   );
 
   /* Sidebar */
-  --site-title-color: #eee;
-  --site-subtitle-color: #989898;
-  --sidebar-bg: #5758bb;
+  --site-title-color: #e8e8e8;
+  --site-subtitle-color: #eee;
+  --sidebar-bg: #ff793f;
   --sidebar-border-color: #292929;
-  --sidebar-muted-color: #989898;
+  --sidebar-muted-color: #eee;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
   --sidebar-hover-bg: #262626;
   --sidebar-btn-bg: #232328;
-  --sidebar-btn-color: #787878;
+  --sidebar-btn-color: #eee;
   --avatar-border-color: rgb(206, 206, 206, 0.9);
 
   /* Topbar */
@@ -58,13 +58,13 @@
   --btn-paginator-hover-color: #2e2e2e;
 
   /* Posts */
-  --toc-highlight: rgb(116, 178, 243);
+  --toc-highlight: #ff793f;
   --toc-popup-border-color: #373737;
   --tag-hover: rgb(43, 56, 62);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
   --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
-  --footnote-target-bg: rgb(63, 81, 181);
+  --footnote-target-bg: #ff793f;
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
   --card-bg: #1e1e1e;
@@ -76,9 +76,9 @@
   --kbd-bg-color: #242424;
   --prompt-text-color: rgb(216, 212, 212, 0.75);
   --prompt-tip-bg: rgb(22, 60, 36, 0.64);
-  --prompt-tip-icon-color: rgb(15, 164, 15, 0.81);
+  --prompt-tip-icon-color: #cd6133;
   --prompt-info-bg: rgb(7, 59, 104, 0.8);
-  --prompt-info-icon-color: #0075d1;
+  --prompt-info-icon-color: #ff793f;
   --prompt-warning-bg: rgb(90, 69, 3, 0.88);
   --prompt-warning-icon-color: rgb(255, 165, 0, 0.8);
   --prompt-danger-bg: rgb(86, 28, 8, 0.8);

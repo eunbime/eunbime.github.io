@@ -19,17 +19,9 @@ tags: [데이터베이스, CS]
 
 ---
 
-## 2. 환경 구성
+## 2. 로컬 환경에서 Prisma와 PostgreSQL 설정
 
-이 글에서는 Prisma와 PostgreSQL을 Docker를 통해 로컬 환경에서 실행하고, Railway를 사용해 클라우드에 배포하는 과정을 다룬다.
-
-<br />
-
----
-
-## 3. 로컬 환경에서 Prisma와 PostgreSQL 설정
-
-### 3.1 Docker 설정
+### 2.1 Docker 설정
 
 먼저, Docker를 이용해 PostgreSQL 컨테이너를 실행한다.
 
@@ -65,7 +57,7 @@ volumes:
 docker-compose up -d
 ```
 
-### 3.2 Prisma 설치 및 초기화
+### 2.2 Prisma 설치 및 초기화
 
 다음 명령어로 Prisma를 설치하고 초기화하여 프로젝트에 추가한다.
 
@@ -96,7 +88,7 @@ datasource db {
 DATABASE_URL="postgresql://postgres:password@localhost:5432/mydb"
 ```
 
-### 3.3 Prisma 데이터 모델 작성
+### 2.3 Prisma 데이터 모델 작성
 
 예시로 간단한 사용자(User) 모델을 정의한다:
 
@@ -127,16 +119,16 @@ npx prisma studio
 
 ---
 
-## 4. Railway를 이용한 배포
+## 3. Railway를 이용한 배포
 
 빠르고 간편한 배포를 위해 클라우드 서비스인 Railway를 사용한다.
 
-### 4.1 Railway에서 PostgreSQL 배포
+### 3.1 Railway에서 PostgreSQL 배포
 
 1. [Railway](https://railway.app/)에 접속해 프로젝트를 생성한다.
 2. 데이터베이스 플러그인 중 PostgreSQL을 추가하면 Railway에서 제공하는 클라우드 기반 PostgreSQL URL이 생성된다.
 
-### 4.2 Prisma에 연결
+### 3.2 Prisma에 연결
 
 Railway의 데이터베이스 URL을 `.env` 파일에 업데이트한다
 
@@ -151,7 +143,7 @@ DATABASE_URL="postgresql://<user>:<password>@<host>:<port>/<database>"
 
 ---
 
-## 5. 정리
+## 4. 정리
 
 Prisma와 PostgreSQL을 활용하면 효율적이고 직관적인 데이터베이스 연동이 가능하다. Docker를 통해 로컬 환경을 손쉽게 구축할 수 있으며, Railway를 이용해 클라우드 배포까지 구현할 수 있다.
 
