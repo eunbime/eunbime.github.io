@@ -1,8 +1,8 @@
 ---
 title: Prisma와 PostgreSQL을 활용한 ORM 환경 구축 - Docker와 Railway를 이용한 배포 가이드
 date: 2024-12-18 10:00:00 +09:00
-categories: [프론트엔드, CS]
-tags: [데이터베이스, CS]
+categories: [프론트엔드, PostgreSQL]
+tags: [PostgreSQL, Prisma, Docker, Railway]
 ---
 
 ## 1. Prisma와 PostgreSQL
