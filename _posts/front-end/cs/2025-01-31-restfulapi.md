@@ -1,26 +1,18 @@
 ---
 title: RESTful API 이해하기
 date: 2025-01-31 10:00:00 +09:00
-categories: [프론트엔드, Next.js]
-tags: [Next.js]
+categories: [프론트엔드, CS]
+tags: [REST]
 ---
 
 ## REST API란?
 
-REST(Representational State Transfer)는 웹 서비스의 아키텍처 스타일로, 다음과 같은 특징을 가집니다:
+REST(Representational State Transfer)는 웹 서비스의 아키텍처 스타일로, 다음과 같은 특징을 가집니다.
 
 - 자원(Resource) 중심의 설계
 - 상태를 가지지 않음(Stateless)
 - HTTP 프로토콜 기반
 - URI를 통한 자원 식별
-
-```mermaid
-graph LR
-    A[클라이언트] -->|HTTP 요청| B[REST API]
-    B -->|자원 표현| C[서버]
-    C -->|응답| A
-
-```
 
 ## REST 6가지 원칙
 
