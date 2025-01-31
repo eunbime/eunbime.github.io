@@ -234,10 +234,6 @@ const PostUploadModal = () => {
 export default PostUploadModal;
 ```
 
-![스크린샷 2025-01-18 오후 2.20.31.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8142744-55a6-4844-a830-3be10006c0af/871ac429-e060-4c8b-af8e-c28dc6c75f9f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.20.31.png)
-
-![스크린샷 2025-01-18 오후 2.21.20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8142744-55a6-4844-a830-3be10006c0af/d8917943-45d4-43d9-a7ae-fb15025454b7/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.21.20.png)
-
 ---
 
 ### 주요 기능 요약
