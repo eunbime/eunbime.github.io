@@ -5,8 +5,6 @@ categories: [프론트엔드, JavaScript]
 tags: [JavaScript]
 ---
 
-# 자바스크립트 이벤트 루프(Event Loop)
-
 자바스크립트는 **싱글 스레드(Single Thread)** 기반의 언어이지만, **이벤트 루프(Event Loop)**를 통해 비동기 작업을 처리하며 동시성을 지원한다.
 
 이번 글에서는 **이벤트 루프의 개념과 동작 방식**을 정리한다.
